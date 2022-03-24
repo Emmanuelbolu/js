@@ -52,6 +52,7 @@ background: #ccc;
 .feature img{
     width: 70px;
 }
+
 .feature{
     position: absolute;
     display: flex;
