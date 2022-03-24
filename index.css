@@ -128,3 +128,16 @@ transform: rotate(-270deg);
     left: 0;
     top: 0;
 }
+.dark-mode{
+    background-color: black;
+    color: #fff;
+}
+#toggle{
+    background-color: #fff;
+    width: 175px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: purple;
+    margin-top: 30px;
+    color: purple;
+}
