@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .main{
     width: 100%;
     height: 100vh;
@@ -58,12 +62,18 @@ background: #ccc;
     display: flex;
     color: #fff;
 }
+.feature div{
+    margin-left: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+}
 .one{
     top: 450px;
     right: 50px;
 }
 .two{
-    top: 170px;
+    top: 200px;
     left: 350px;
 }
 .three{
@@ -71,6 +81,14 @@ background: #ccc;
     left: 50px;
 }
 .four{
-bottom: 150px;
+bottom: 170px;
 right: 350px;
+}
+.mobile{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
